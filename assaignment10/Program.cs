@@ -63,14 +63,25 @@ namespace assaignment10
 
             #endregion
             #region Q10:  What is the interface constraint? Write an example.
-         //عباره عن تقييد لمنع استقبال اي نوع بيانات غير لما يتم تنفيد الانتيرفيس
-     
+            //عباره عن تقييد لمنع استقبال اي نوع بيانات غير لما يتم تنفيد الانتيرفيس
+
             //Person p1 = new Person { Name = "anas", Age = 22 };
             //Person p2 = new Person { Name = "mohamed", Age = 20 };
             //Company<Person> company = new Company<Person>();
             //int result = company.CompareItems(p1, p2);
 
             //Console.WriteLine(result);
+            #endregion
+            #region Q11: What is the base class constraint? Write an example.
+            //بيجبر النوع اللي هيستخدمه انه يكون وارث من كلاس معين
+            //Student student = new Student("Mohamed", 95);
+            //Teacher teacher = new Teacher("Ahmed", "math");
+
+            //School<Student> studentSchool = new School<Student>(student);
+            //School<Teacher> teacherSchool = new School<Teacher>(teacher);
+
+            //studentSchool.ShowMember();
+            //teacherSchool.ShowMember();
             #endregion
         }
 
