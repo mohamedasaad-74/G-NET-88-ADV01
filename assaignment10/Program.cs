@@ -32,6 +32,11 @@ namespace assaignment10
             //Utility.Swap(ref x , ref y);
             //Console.WriteLine($"x: {x}, y: {y}");
             #endregion
+            #region Q5: Write a generic method FindMax<T> that finds maximum value
+            //int max = Utility.FindMax(10, 20);
+            //Console.WriteLine($"FindMax : {max}");
+            #endregion  
+
 
         }
 
