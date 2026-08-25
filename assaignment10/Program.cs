@@ -50,8 +50,17 @@ namespace assaignment10
             #endregion
             #region Q8: What is the 'class' constraint? Write an example.
             //refrence type ان نوع القيم لازم يكون  developer بنستخدمه لوضع قيود علي ال generic constrin هو عباره عن 
-          //  Employee<string> empName = new Employee<string>("mohamed");
-          //  Console.WriteLine(empName.Details);
+            //  Employee<string> empName = new Employee<string>("mohamed");
+            //  Console.WriteLine(empName.Details);
+            #endregion
+            #region Q9: What is the 'new()' constraint? Write an example.
+          //دا قيد لعمل منشئ افتراضي من غير اي براميتر
+           
+            //EmployeeFactory<_Employee> factory = new EmployeeFactory<_Employee>();
+            //_Employee newEmp = factory.Create();
+
+            //System.Console.WriteLine(newEmp.Name);
+
             #endregion
         }
 

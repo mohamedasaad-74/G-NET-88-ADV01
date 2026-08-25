@@ -17,6 +17,12 @@ namespace assaignment10.Generic
         {
             Details = details;
         }
-    }
-}
     #endregion
+       
+        
+
+    }
+
+
+}
+    
