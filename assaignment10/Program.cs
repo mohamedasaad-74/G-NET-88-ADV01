@@ -35,7 +35,13 @@ namespace assaignment10
             #region Q5: Write a generic method FindMax<T> that finds maximum value
             //int max = Utility.FindMax(10, 20);
             //Console.WriteLine($"FindMax : {max}");
-            #endregion  
+            #endregion
+            #region Q6: What is a generic interface? Write IRepository<T>.   interface
+            // وبنطبقه علي الكلاسات اللي هيا مشتركه فيه  interface اللي جوا  function بتاع ال  signature لل  generic  بنعمل 
+            //وكل كلاس بقي يحط النوع اللي هو عايزه 
+            //لازم نعرف النوع اثناء التنفيد زي الكلاس ةعكس الداله
+
+            #endregion
 
 
         }
