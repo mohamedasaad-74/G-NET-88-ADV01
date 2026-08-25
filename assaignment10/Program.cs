@@ -25,6 +25,13 @@ namespace assaignment10
             //Pair<string, int> studentGrade = new Pair<string, int>("mohamed", 99);
             //studentGrade.Display();
             #endregion
+            #region Q4: What is a generic method? Write Swap<T> method.
+            // الهدف منها عدم التكرار  generic داخل كلاس مش  generic عباره عن داله 
+            //لا يشترط ان احنا نقولها النوع لانها بتتعرف عليه من نوع البراميتر اللي انا مباصيه ودا علي عكس الكلاس 
+            //int x = 10, y = 20;
+            //Utility.Swap(ref x , ref y);
+            //Console.WriteLine($"x: {x}, y: {y}");
+            #endregion
 
         }
 
