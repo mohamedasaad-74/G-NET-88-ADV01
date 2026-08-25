@@ -20,6 +20,14 @@ namespace assaignment10
             //string text = stringContainer.Get();
 
             #endregion
+            #region Q3:What are multiple type parameters? Write Pair<TKey, TValue>.
+            //  generic بتييح ليا اني احط اكتر من نوع في ال 
+            //Pair<string, int> studentGrade = new Pair<string, int>("mohamed", 99);
+            //studentGrade.Display();
+            #endregion
+
         }
+
+
     }
 }
