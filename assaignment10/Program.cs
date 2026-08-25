@@ -54,13 +54,23 @@ namespace assaignment10
             //  Console.WriteLine(empName.Details);
             #endregion
             #region Q9: What is the 'new()' constraint? Write an example.
-          //دا قيد لعمل منشئ افتراضي من غير اي براميتر
-           
+            //دا قيد لعمل منشئ افتراضي من غير اي براميتر
+
             //EmployeeFactory<_Employee> factory = new EmployeeFactory<_Employee>();
             //_Employee newEmp = factory.Create();
 
             //System.Console.WriteLine(newEmp.Name);
 
+            #endregion
+            #region Q10:  What is the interface constraint? Write an example.
+         //عباره عن تقييد لمنع استقبال اي نوع بيانات غير لما يتم تنفيد الانتيرفيس
+     
+            //Person p1 = new Person { Name = "anas", Age = 22 };
+            //Person p2 = new Person { Name = "mohamed", Age = 20 };
+            //Company<Person> company = new Company<Person>();
+            //int result = company.CompareItems(p1, p2);
+
+            //Console.WriteLine(result);
             #endregion
         }
 
