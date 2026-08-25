@@ -44,11 +44,15 @@ namespace assaignment10
             #endregion
             #region Q7: What is the 'struct' constraint? Write an example. 
             // value type ان نوع القيم لازم يكون  developer بنستخدمه لوضع قيود علي ال generic constrin هو عباره عن 
-         //   Salary<int> basicSalary = new Salary<int>(90000);
-         //   Console.WriteLine(basicSalary.Amount);
+            //   Salary<int> basicSalary = new Salary<int>(90000);
+            //   Console.WriteLine(basicSalary.Amount);
 
             #endregion
-
+            #region Q8: What is the 'class' constraint? Write an example.
+            //refrence type ان نوع القيم لازم يكون  developer بنستخدمه لوضع قيود علي ال generic constrin هو عباره عن 
+          //  Employee<string> empName = new Employee<string>("mohamed");
+          //  Console.WriteLine(empName.Details);
+            #endregion
         }
 
 
